@@ -104,7 +104,7 @@
 .modalbtn:hover {
   background-color:  rgb(228, 82, 25);
 }
-#ifrm{
+.ifrm{
   height: 600px;
   display: block;
   width: 100%;
