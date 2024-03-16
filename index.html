@@ -1,0 +1,263 @@
+<!-- TODO: a webpage for storing study material -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>SRSV Student Corner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>PDF READER</h1>
+    <embed src="KDT Pharmacology.pdf" height="500" width="1000"> -->
+    <!-- TODO: NAVIGATION BAR -->
+    <div id="heading">
+      <h4>Sree RamKrishna Silpa Vidyapith Student Corner</h4>
+    </div>
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Search Bar</a>
+        <button
+          class="navbar-toggler"
+          id="navbt"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" class="navbarTabLine">
+              <a class="nav-link active" aria-current="page" href="#home"
+                ><h3 class="nav-item-heading">Home</h3></a
+              >
+            </li>
+            <li class="nav-item" class="navbarTabLine">
+              <a class="nav-link" href="#About"
+                ><h3 class="nav-item-heading">About Us</h3></a
+              >
+            </li>
+            <li class="nav-item" class="navbarTabLine">
+              <a class="nav-link" href="#generalnotes"
+                ><h3 class="nav-item-heading">General notes</h3></a
+              >
+            </li>
+            <!-- TODO: DROPDOWN LIST -->
+            <li class="nav-item dropdown" >
+              <h3><a class="nav-link dropdown-toggle" id="dropdownbtn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Class Notes
+              </a></h3>
+              <ul class="dropdown-menu" id="dropdownlist"id="dropdownlist">
+                <li><a class="dropdown-item" href="#PHARMACOLOGY">PHARMACOLOGY</a></li>
+                <li><a class="dropdown-item" href="#BIOCHEMISTRY">BIOCHEMISTRY</a></li>
+                <li><a class="dropdown-item" href="#HOSPITAL">HOSPITAL</a></li>
+              </ul>
+            </li>
+    
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- TODO: about Section -->
+    <div id="About">
+      <div id="card-content-about">
+        <h2 class="card-header" id="card-header-about">About Us</h2>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div id="para1" class="para">
+            <p class="card-text">
+              Hello readers !<br />
+              I am <b>Ujjal Debnath</b> a student of second year d.pharm at
+              SRSV. welcome to my website and i hope you all enjoy reading the
+              study materials provided by our college. Remember this is a
+              website only for the students here I will post every pdf given in
+              our group which contain study materials(including all the
+              parcticals). I made this website so that everyone can read any
+              study material anywhere without downloading it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TODO: GENERAL NOTES SECTION -->
+    <div>
+      <div id="generalnotes">
+        <h2 class="card-header">General Notes</h2>
+        <div class="card">
+          <div class="card-body">
+            <div class="para">
+              <p class="card-text">
+                Hello readers !<br />
+                here you can get all the class notes provided by every teacher.
+              </p>
+              <ul style="list-style-type: none;">
+                <li>
+                  <!-- Button to open first modal -->
+                  <button class="modalbtn" onclick="openModal('modal1')">KDT Pharmacology</button>
+                  <!-- First Modal -->
+                    <div id="modal1" class="modal">
+                      <div class="modal-content">
+                          <embed src="KDT Pharmacology.pdf" height="600" width="100%">
+                            <div class="btnmodal">
+                              <button class="modalbtn" onclick="closeModal('modal1')">Close</button>
+                            </div>
+                      </div>
+                    </div>
+                </li>
+                <li>
+                  <!-- Button to open second modal -->
+                  <button class="modalbtn" onclick="openModal('modal2')">Pharmacological Classification of Drugs kd tripathi</button>
+                  <!-- Second Modal -->
+                  <div id="modal2" class="modal">
+                    <div class="modal-content">
+                      <embed src="Pharmacological Classification of Drugs kd tripathi .pdf" height="600" width="100%">
+                        <div class="btnmodal">
+                          <button class="modalbtn" onclick="closeModal('modal2')">Close</button>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TODO: CLASS NOTE SECTION -->
+    <div>
+      <div id="classnotes">
+        <h2 class="card-header">Class notes</h2>
+        <div class="card">
+          <div class="card-body">
+            <div class="para">
+              <p class="card-text">
+                Hello readers !<br />
+                here you can get all the class notes provided by every teacher.
+              </p>
+              <div id="PHARMACOLOGY">
+                <div id="card-content-about">
+                  <h2 class="card-header" id="card-header-about">PHARMACOLOGY</h2>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div id="para1" class="para">
+                      <ul style="list-style-type: none;">
+                        <!-- TODO: ANALGESICS, ANTI-PYRETICS & ANTI-INFLAMATORY -->
+                        <li>
+                          <!-- Button to open third modal -->
+                          <button class="modalbtn" onclick="openModal('modal3')">ANALGESICS, ANTI-PYRETICS & ANTI-INFLAMATORY</button>
+                          <!-- Third Modal -->
+                          <div id="modal3" class="modal">
+                            <div class="modal-content">
+                              <embed src="ANALGESICS, ANTI-PYRETICS & ANTI-INFLAMATORY.pdf" height="600" width="100%">
+                                <div class="btnmodal">
+                                  <button class="modalbtn" onclick="closeModal('modal3')">Close</button>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- TODO: antipsychotic -->
+                        <li>
+                          <!-- Button to open forth modal -->
+                          <button class="modalbtn" onclick="openModal('modal4')">antipsychotic</button>
+                          <!-- Forth Modal -->
+                          <div id="modal4" class="modal">
+                            <div class="modal-content">
+                              <embed src="antipsychotic.pdf" height="600" width="100%">
+                                <div class="btnmodal">
+                                  <button class="modalbtn" onclick="closeModal('modal4')">Close</button>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                        <!-- TODO: Drugs acting on cardiovascular system -->
+                        <li>
+                          <!-- Button to open fifth modal -->
+                          <button class="modalbtn" onclick="openModal('modal5')">Drugs acting on cardiovascular system</button>
+                          <!-- Fifth Modal -->
+                          <div id="modal5" class="modal">
+                            <div class="modal-content">
+                              <embed src="CVS.pdf" height="600" width="100%" >
+                                <div class="btnmodal">
+                                  <button class="modalbtn" onclick="closeModal('modal5')">Close</button>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                    <!-- TODO: BIOCHEMISTRY -->
+              <div id="BIOCHEMISTRY">
+                <div id="card-content-about">
+                  <h2 class="card-header" id="card-header-about">BIOCHEMISTRY</h2>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div id="para1" class="para">
+                      <ul style="list-style-type: none;">
+                        <li>
+                          <!-- Button to open sixth modal -->
+                          <button class="modalbtn" onclick="openModal('modal6')">Protein Lecture</button>
+                          <!-- Sixth Modal -->
+                          <div id="modal6" class="modal">
+                            <div class="modal-content">
+                              <embed src="Protein Lecture 1.pdf" height="600" width="100%" >
+                                <div class="btnmodal">
+                                  <button class="modalbtn" onclick="closeModal('modal6')">Close</button>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="HOSPITAL">
+                <div id="card-content-about">
+                  <h2 class="card-header" id="card-header-about">HOSPITAL AND CLINICAL PHARMACY</h2>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <div id="para1" class="para">
+                      <ul style="list-style-type: none;">
+                        <li>
+                          <!-- Button to open sixth modal -->
+                          <button class="modalbtn" onclick="openModal('modal6')">COLD CHAIN</button>
+                          <!-- Sixth Modal -->
+                          <div id="modal6" class="modal">
+                            <div class="modal-content">
+                              <embed src="COLD CHAIN.pdf" height="600" width="100%" >
+                                <div class="btnmodal">
+                                  <button class="modalbtn" onclick="closeModal('modal6')">Close</button>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
