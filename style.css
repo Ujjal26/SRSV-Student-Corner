@@ -18,7 +18,9 @@
       rgb(54, 179, 224)
     );
     height:fit-content;
-    margin: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
     padding:10px ;
 }
 #BIOCHEMISTRY{
@@ -28,7 +30,9 @@
       rgb(78, 233, 64)
     );
     height:fit-content;
-    margin: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
     padding:10px ;
 }
 #HOSPITAL{
@@ -38,7 +42,9 @@
       rgb(54, 179, 224)
     );
     height:fit-content;
-    margin: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
     padding:10px ;
 }
   #generalnotes{
