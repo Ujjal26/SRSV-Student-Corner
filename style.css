@@ -98,18 +98,35 @@ color: white;
 padding: 15px 15px;
 text-align: center;
 text-decoration: none;
-display: inline-block;
+display:block;
 font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
 height: fit-content;
-width: 300px;
+width: fit-content;
 border-radius: 20px;
 }
-
+.btnmodal{
+  /* background-color:rgb(187, 61, 11); */
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  }
 .modalbtn:hover {
 background-color:  rgb(228, 82, 25);
 }
+.btnmodal:hover {
+  background-color:  rgb(186, 186, 186);
+  }
 .ifrm{
 height: 600px;
 display: block;
